@@ -17,9 +17,19 @@ cp kibana_init_script/kibana /etc/init.d/kibana
 Start Kibana
 ```
 chmod +x /etc/init.d/kibana
+/etc/init.d/kibana start
+```
+
+Add kibana to chkconfig
+```
 chkconfig --add kibana
+```
+
+Check URL
+```
 curl http://192.168.33.10:5601/
 ```
+
 
 # Origin
 
