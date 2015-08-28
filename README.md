@@ -1,5 +1,10 @@
 # kibana_init_script
 
+This is Kibana4 init script for CentOS.
+
+
+# How to set up
+
 Install Kibana4
 ```
 cd /usr/local/src
