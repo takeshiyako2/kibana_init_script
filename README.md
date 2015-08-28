@@ -5,6 +5,17 @@ This is Kibana4 init script for CentOS.
 
 # How to set up
 
+Install Elasticsearch
+```
+cd /usr/local/src
+wget https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.1.tar.gz --inet4-only
+tar xzf elasticsearch-1.7.1.tar.gz
+cd elasticsearch-1.7.1
+./bin/plugin -i elasticsearch/marvel/latest
+./bin/elasticsearch -d
+curl http://127.0.0.1:9200
+```
+
 Install Kibana4
 ```
 cd /usr/local/src
