@@ -10,7 +10,7 @@ Install Kibana4
 cd /usr/local/src
 wget https://download.elastic.co/kibana/kibana/kibana-4.1.1-linux-x64.tar.gz
 tar xzf kibana-4.1.1-linux-x64.tar.gz
-mv kibana-4.1.1-linux-x64 ../kibana
+mv kibana-4.1.1-linux-x64 kibana
 ```
 
 Clone init script
